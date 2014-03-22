@@ -3784,7 +3784,7 @@
 
     const/16 v9, 0x4002
 
-    if-ne v8, v9, :cond_ca
+    if-ne v9, v9, :cond_ca
 
     .line 669
     iget v8, p0, Lcom/sec/android/visualeffect/rippleink/RippleInkRenderer;->mouseX:F
